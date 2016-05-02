@@ -103,6 +103,7 @@ header{
 .main-menu-maxwidth767{
 	text-align: center;
 	margin-top: 20px;
+	display: none;
 }
 .main-menu-maxwidth767 li{
 	margin:10px;
@@ -136,7 +137,7 @@ header{
 	margin-bottom: 25px;
 }
 .slider-content h2 span{
-	display: inline-block;
+	display: inline-block; 
 }
 .slider-content p{
 	line-height: 32px;
