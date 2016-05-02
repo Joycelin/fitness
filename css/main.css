@@ -100,11 +100,7 @@ header{
 	color:#01a5ca;
 	cursor: pointer;
 }
-.main-menu-maxwidth767{
-	text-align: center;
-	margin-top: 20px;
-	display: none;
-}
+
 .main-menu-maxwidth767 li{
 	margin:10px;
 }
@@ -113,7 +109,11 @@ header{
 	cursor: pointer;
 	background-color:#01a5ca; 
 }
-
+.main-menu-maxwidth767{
+	text-align: center;
+	margin-top: 20px;
+	display: none;
+}
 /*------------content-------------*/
 
 .content{
