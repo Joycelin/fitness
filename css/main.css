@@ -48,7 +48,7 @@ table {
 }
 /*----------------------------------------------------------*/
 .wrap{
-	background:url(../images/bg_html.jpg) repeat; 
+	background:url(../images/bg_html.jpg)center repeat; 
 	height: 100%;
 	font-family: Arial;
 }
@@ -100,6 +100,18 @@ header{
 	color:#01a5ca;
 	cursor: pointer;
 }
+.main-menu-maxwidth767{
+	text-align: center;
+	margin-top: 20px;
+}
+.main-menu-maxwidth767 li{
+	margin:10px;
+}
+.main-menu-maxwidth767 li:hover{
+	color:#ffffff;
+	cursor: pointer;
+	background-color:#01a5ca; 
+}
 
 /*------------content-------------*/
 
@@ -122,6 +134,9 @@ header{
 	color:#01a5ca;
 	font-size: 48px;
 	margin-bottom: 25px;
+}
+.slider-content h2 span{
+	display: inline-block;
 }
 .slider-content p{
 	line-height: 32px;
