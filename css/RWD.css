@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 /*----------------------------------------------------------*/
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 990px){
 	.wrap{
 		width: 100%;
 	}
@@ -55,7 +55,7 @@ table {
 		width: 100%;
 	}
 	.logo{
-		text-align: center;
+		float: left;
 	}
 	.main-menu{
 		display: none;
@@ -63,8 +63,14 @@ table {
 	.main-menu-maxwidth767{
 		display: block;
 	}
+	.main-menu-maxwidth767 li{
+		margin: 5% auto;
+		padding: 5% 0;
+		background-color: #666;
+		color: #fff;
+	}
 	.icons{
-		display: none;
+		float: right;
 	}
 	/*---silder---*/
 	.content{
@@ -73,15 +79,17 @@ table {
 	.slider-img{
 		display: block;
 		width: 100%;
+		height: 100%;
 	}
 	.slider-img img{
+		display: block;
 		width: 100%;
+		height: 100%;
 	}
 	.slider-content
 	{
 		display: block;
 		width: 100%;
-		margin-top: 70px;
 		background-color: #292929;
 	}
 	.slider-content span{
@@ -96,17 +104,138 @@ table {
 	}
 	.content-right{
 		display: block;
-		float: none;
-		margin: 25px;
+		margin: 4% 0;
+		width: 100%;
 	}
 	.service-list{
 		float: left;
 	}
-	.find-us{
-		float: right;
-		margin-top:0;
+	.max-width768-none{
+		display: none;
 	}
-	.clear{
-		clear: both;
+	
+	.find-us{
+		margin-top:0;
+		float: right;
+	}
+
+}
+}
+@media only screen and (max-width: 768px){
+	.wrap{
+		width: 100%;
+	}
+	.width940{
+		width: 100%;
+	}
+	.logo{
+		float: left;
+	}
+	.main-menu{
+		display: none;
+	}
+	.main-menu-maxwidth767{
+		display: block;
+	}
+	.main-menu-maxwidth767 li{
+		margin: 5% auto;
+		padding: 5% 0;
+		background-color: #666;
+		color: #fff;
+	}
+	.icons{
+		float: right;
+	}
+	/*---silder---*/
+	.content{
+		background: none;
+	}
+	.slider-img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.slider-img img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.slider-content
+	{
+		display: block;
+		width: 100%;
+		background-color: #292929;
+	}
+	.slider-content span{
+		margin-left: 15px;
+	}
+	/*---services list---*/
+	.event-discribe{
+		height: 100%;
+	}
+	.event{
+		display: block;
+	}
+	.content-right{
+		display: block;
+		margin: 4% 0;
+		width: 100%;
+	}
+	.service-list{
+		float: left;
+	}
+	.max-width768-none{
+		display: none;
+	}
+	
+	.find-us{
+		margin-top:0;
+		float: right;
+	}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.logo{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top:3% 
+	}
+	.icons{
+		margin:5% auto;
+	}
+	.icons li{
+		display: inline-block;
+		margin-bottom: 0;
+		float: none;
+	}
+	.main-menu-maxwidth767 li{
+		margin: 5% auto;
+		padding: 5% 0;
+		background-color: #666;
+		color: #fff;
+	}
+	.slider-img{
+		display: none;
+	}
+	.event-discribe{
+		width: 100%;
+		padding:0;
+	}
+	.latest-event{
+		width: 100%;
+		padding: 0;
+	}
+	.event{
+		width: 100%;
+	}
+	.event img{
+		display: block;
+		width: 100%;
+	}
+	.find-us{
+		float: left;
 	}
 }

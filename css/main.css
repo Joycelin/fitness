@@ -89,6 +89,9 @@ header{
 .clear{
 	clear:both;
 }
+.min-width768-none{
+	display: none;
+}
 .main-menu{
 	float: right;
 }
@@ -177,8 +180,12 @@ header{
 	float: left;
 	padding-right: 56px;
 }
-
-
+.event{
+	cursor: pointer;
+}
+.event:hover{
+	color: #01a5ca;
+}
 .event h4{
 	font:20px;
 	font-weight: bold;
@@ -201,10 +208,17 @@ header{
 
 .content-right{
 	float: right;
+	height: 100%;
 }
+
 .service-list li{
 	list-style: url(../images/icon_03.png);
 	margin-bottom: 15px;
+	cursor: pointer;
+
+}
+.service-list li:hover{
+	color: #01a5ca;
 }
 .find-us
 {
